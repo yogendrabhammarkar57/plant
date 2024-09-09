@@ -1,0 +1,164 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 80%;
+    height: 100%;
+}
+#left #lupper{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1498569026542-39c64353e401?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#left #ldown{
+    height: 16%;
+    color: white;
+    background-color: #222;
+    padding:50px;
+}
+#ldcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 30px; */
+}
+#leftc{
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 45%;
+    height: 90%;
+}
+#leftc p {
+    font-size: 12px;
+    width: 70%;
+}
+#rightc{
+    margin-top: -20px;
+    width: 45%;
+    height: 100%;
+}
+.relem{
+    display: flex;
+}
+.relemtext{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.relemtext  p{
+    margin-top: -20px;
+    opacity: .5;
+    font-size: 10px;
+}
+.row{
+    padding-right: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+#right{
+    width: 20%;
+    height: 100%;
+}
+
+#right #rupper{
+    width: 30%;
+    height: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+#rupper a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+#rupper #selected::before{
+    content: " ";
+    position: absolute;
+    width: 10px;
+    background-color: black;
+    height: 2px;
+    left: -20px;
+    top: 7px;
+}
+#rupper #selected {
+    position: relative;
+    margin-left: 10px;
+}
+#icons{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 15px;
+}
+#icons i{
+    font-size: 15px;
+}
+#btmflower{
+    background-size: cover;
+    position: absolute;
+    background-image: url(https://media.istockphoto.com/id/1344685431/photo/shami-tree-leaves.jpg?s=1024x1024&w=is&k=20&c=I2ixiTN4GJKajWrIA2hxB4SwxTR2M3evKwSQr-1-loo=);
+    width: 100px;
+    height: 120px;
+    left: 80%;
+    bottom: 30%;
+    
+}
+#btmflower i{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 40px;
+height: 40px;
+transform: translate(-50%,-50%);
+color: white;
+background-color: rgba(0, 0, 0, 0.479);
+border-radius: 50%;
+}
+ 
+#right #rdown{
+    position: relative;
+    width: 100%;
+    height: 31%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675368244123-082a84cf3072?q=80&w=1550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#capsule{
+    font-size: 14px;
+    width: 80%;
+    padding: 10px 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 5px;
+}
+#capsule h4{
+    font-size: 14px;
+    margin-top: -3px;
+}
+#capsule p{
+    margin-top: -15px;
+    font-size: 10px;
+}
